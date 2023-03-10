@@ -1,5 +1,5 @@
 body {
-    --color-theme: #0D98BA;
+    --color-theme: #ba630d;
 }
 
 @font-face {
@@ -18,8 +18,8 @@ body {
 h1 {
     font-size: large;
     text-align: center;
-    background-color: #0D98BA;
-    color: #000;
+    background-color: #1e5bc3;
+    color: #fff;
     margin: 0;
     padding: 16px;
 }
@@ -30,7 +30,7 @@ span.icon {
     font-feature-settings: 'liga';
     margin-bottom: 0px;
     color: var(--color-icon-front);
-    font-size: 16px;
+    font-size: 12px;
     vertical-align: sub;    
 }
 
@@ -58,13 +58,12 @@ textarea {
 button {
     display: block;
     text-decoration: none;
-    background-color: var(--color-toolbar);
-    color: var(--color-toolbar-button);
-    font-size: 13px;
-    padding: 8px 8px;
+    background-color: #1e5bc3;
+    color: #fff;
+    font-size: 10px;
+    padding: 6px;
     line-height: 1;
     margin: 8px 8px;
-    font-weight: bold;
     border-radius: 8px;
     border: 2px solid var(--color-icon-front);
 }
